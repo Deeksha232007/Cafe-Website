@@ -1,0 +1,25 @@
+.container{
+    background-color: black;
+    width:200vh;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.digit{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size :100px;
+    color: aliceblue;
+    background-color: darkgray;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 500px;
+    height:500px;
+    border-radius: 20px;
+    
+}
