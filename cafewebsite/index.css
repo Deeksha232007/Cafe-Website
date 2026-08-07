@@ -71,9 +71,10 @@ display: flex;
 .logo{
     position: absolute;
     height: 400px;
-    width:400px;
+    
     margin-top:120px;
     margin-left:400px ;
+    width:400px;
     
 
     border:10px;
