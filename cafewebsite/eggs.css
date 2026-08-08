@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.stiff{
+    position: relative;
+    width: 1300px;
+    min-height: 350vh;
+}
+
+.backs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url("images.jpg/egg\ specail\ dispaly.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.f{
+    
+    display:flex;
+    font-size: 50px;
+    
+    color: beige;
+    margin-left: 35px;
+    position:fixed;
+
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+     font-family: "Cookie", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 80px;
+     padding-top: 20px;
+     margin-left: 400px;
+     color:lightpink;
+     padding-bottom: 50px;
+
+
+
+}
+
+.blo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ip1{
+    width: 400px;
+    background-color: beige;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    
+    align-items: center;
+      cursor:pointer;
+    transition:1s ease;
+    
+}
+
+.ip1 img{
+    width:350px ;
+    height: 350px;
+    border-radius: 12px;
+    display: block;
+    margin:0 auto;
+  
+    
+
+
+}
+
+.ip1:hover{
+transform:scale(1.05);
+
+}
+
+.ip1 div{
+     padding: 10px;
+    font-weight: bold;
+    
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+.butti{
+    background-color: rgb(221, 107, 126);
+    height:50px;
+    width:150px;
+    border-radius: 12px;
+    transition:all 0.4s ease;
+    cursor:pointer;
+    box-shadow: 2px 2px 4px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.butti:hover{
+    transform:scale(1.05);
+    background-color: rgba(230, 187, 211, 0.45);
+    
+    
+    
+    
+}
+.descrip{
+    display:flex;
+    width:1100px;
+    height:200px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 100px;
+    filter: blur(1.05);
+}
+.love{
+    font-size: 30px;
+     font-family: "Cookie", cursive;
+     font-weight: 400;
+     font-style: normal;
+     align-items: center;
+}   

@@ -83,10 +83,11 @@ display: flex;
 
 
 .thought-font{
-    position: absolute;
+    
     color: azure;
     margin-top: 50vh;
     font-size: 50px;
+    position: absolute;
 }
     
   
